@@ -22,8 +22,8 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: add nojekyllstudenture-gh-pages
-        run: touch ./public/.nojekyll
+      # - name: add nojekyllstudenture-gh-pages
+      #   run: touch ./public/.nojekyll
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
