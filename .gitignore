@@ -1,0 +1,6 @@
+# Hugo site
+/public/
+/resources/
+
+# macOS
+.DS_Store
