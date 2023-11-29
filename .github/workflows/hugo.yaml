@@ -22,8 +22,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Build
-        run: make docs
       - name: add nojekyllstudenture-gh-pages
         run: touch ./public/.nojekyll
       - name: Build with Hugo
